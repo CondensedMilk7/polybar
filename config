@@ -18,7 +18,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #E61a1b26
+background = #D91a1b26
 background-alt = #414868
 ;foreground = ${xrdb:color7:#222}
 foreground = #a9b1d6
@@ -59,7 +59,7 @@ font-4 = Font Awesome 5 Free Solid:pixelsize=12;1
 
 modules-left = i3
 modules-center = xwindow
-modules-right = filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -406,7 +406,7 @@ menu-1-1 = reboot
 menu-1-1-exec = sudo reboot
 
 menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0-exec = poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 

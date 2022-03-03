@@ -18,7 +18,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #D91a1b26
+background = #1a1b26
 background-alt = #414868
 ;foreground = ${xrdb:color7:#222}
 foreground = #a9b1d6
@@ -268,7 +268,7 @@ label = %percentage:2%%
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.primary}
 format-underline = #73daca
 label = %percentage_used%%
 
